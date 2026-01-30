@@ -1,0 +1,82 @@
+name: test_sql_normal_external
+description: ''
+version: 0.0.1
+author: admin@prophecy.io
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2026-01-30 10:26:33'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros:
+  .prophecy/metadata/sqlmacros/generate_schema_name:
+    name: generate_schema_name
+    macroType: expression
+    description: null
+    author: admin@prophecy.io
+    files:
+    - macros/generate_schema_name.sql
+    - .prophecy/ide/macros/generate_schema_name.json
+    createdAt: '2026-01-30 10:26:49'
+  .prophecy/metadata/sqlmacros/prophecy_tmp_source:
+    name: prophecy_tmp_source
+    macroType: expression
+    description: null
+    author: admin@prophecy.io
+    files:
+    - macros/prophecy_tmp_source.sql
+    - .prophecy/ide/macros/prophecy_tmp_source.json
+    createdAt: '2026-01-30 10:26:54'
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: admin@prophecy.io
+  createdAt: '2026-01-30 10:26:33'
+dependencies: []
+projectDependencies:
+  '15':
+    projectUID: 15
+    projectName: prophecy_basics
+    repositoryPath: gitUri=https://github.com/prophecy-io/prophecy-basics&subPath=
+    version: 1.0.6
+    isDefault: true
+    author: null
+    createdAt: '2026-01-30 10:26:24'
+flags:
+  shouldAddDefaultDependenciesIfAbsent: false
+pipelineConfigurations: {}
+projectConfigurations: {}
+sqlOrchestratorPipelines:
+  .prophecy/metadata/sqlorchestratorpipeline/asd:
+    name: asd
+    schema: null
+    description: null
+    author: admin@prophecy.io
+    files:
+    - .prophecy/ide/pipelines/asd.json
+    - pipelines/asd.py
+    - models/asd/asd__Aggregate_0.sql
+    - models/asd/schema.yml
+    createdAt: '2026-01-30 10:26:54'
+sqlBusinessApps: {}

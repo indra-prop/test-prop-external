@@ -1,0 +1,6 @@
+---
+version: 2
+models:
+- name: "asd__Aggregate_0"
+  tags:
+  - "prophecy_temp"
