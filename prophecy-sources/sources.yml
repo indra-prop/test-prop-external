@@ -1,0 +1,41 @@
+---
+version: 2
+sources:
+- name: "ayush_demos_information_schema"
+  database: "ayush_demos"
+  schema: "information_schema"
+  tables:
+  - name: "catalog_privileges"
+    columns: []
+    type: "table"
+- name: "main_rishabh"
+  database: "main"
+  schema: "rishabh"
+  tables:
+  - name: "1k_aka_gpdip_edlud_289"
+    config:
+      tags:
+      - "pipeline:asd"
+    columns:
+    - name: "is_active"
+      dataType:
+        type: "String"
+    - name: "is_static"
+      dataType:
+        type: "String"
+    - name: "extract_date"
+      dataType:
+        type: "String"
+    - name: "product_name"
+      dataType:
+        type: "String"
+    - name: "country_abbreviation"
+      dataType:
+        type: "String"
+    - name: "app_country_id"
+      dataType:
+        type: "Integer"
+    - name: "country_name"
+      dataType:
+        type: "String"
+    type: "table"

@@ -1,6 +1,6 @@
 ---
 version: 2
 models:
-- name: "asd__Aggregate_0"
+- name: "asd__inactive_flag"
   tags:
   - "prophecy_temp"

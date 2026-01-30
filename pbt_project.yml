@@ -46,7 +46,62 @@ sqlMacros:
     - .prophecy/ide/macros/prophecy_tmp_source.json
     createdAt: '2026-01-30 10:26:54'
 sqlSeeds: {}
-sqlSources: {}
+sqlSources:
+  .prophecy/metadata/sqlsources/ayush_demos_information_schema:
+    name: ayush_demos_information_schema
+    description: null
+    author: admin@prophecy.io
+    files:
+    - prophecy-sources/sources.yml
+    createdAt: '2026-01-30 10:29:10'
+    tables:
+    - name: catalog_privileges
+      schema:
+        entityType: ''
+        providerType: databricks
+        fields: []
+      description: null
+      author: admin@prophecy.io
+      createdAt: '2026-01-30 10:29:10'
+      tableType: table
+  .prophecy/metadata/sqlsources/main_rishabh:
+    name: main_rishabh
+    description: null
+    author: admin@prophecy.io
+    files:
+    - prophecy-sources/sources.yml
+    createdAt: '2026-01-30 10:30:02'
+    tables:
+    - name: 1k_aka_gpdip_edlud_289
+      schema:
+        entityType: ''
+        providerType: databricks
+        fields:
+        - name: is_active
+          dataType:
+            type: String
+        - name: is_static
+          dataType:
+            type: String
+        - name: extract_date
+          dataType:
+            type: String
+        - name: product_name
+          dataType:
+            type: String
+        - name: country_abbreviation
+          dataType:
+            type: String
+        - name: app_country_id
+          dataType:
+            type: Integer
+        - name: country_name
+          dataType:
+            type: String
+      description: null
+      author: admin@prophecy.io
+      createdAt: '2026-01-30 10:30:02'
+      tableType: table
 sqlUnreferencedSources: {}
 sqlPipeline:
   name: sqlPipeline
@@ -76,7 +131,7 @@ sqlOrchestratorPipelines:
     files:
     - .prophecy/ide/pipelines/asd.json
     - pipelines/asd.py
-    - models/asd/asd__Aggregate_0.sql
     - models/asd/schema.yml
+    - models/asd/asd__inactive_flag.sql
     createdAt: '2026-01-30 10:26:54'
 sqlBusinessApps: {}
